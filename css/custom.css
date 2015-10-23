@@ -1,0 +1,32 @@
+nav, header, main, footer {
+  padding-left: 240px; }
+
+@media only screen and (max-width: 992px) {
+  nav, header, main, footer {
+    padding-left: 0; } }
+.side-nav_logo {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+.signup_button {
+  margin: 2em; }
+  .signup_button span {
+    color: white; }
+
+.login_button {
+  margin: 2em; }
+  .login_button span {
+    color: white; }
+
+.dropdown-button {
+  display: solid; }
+
+/*# sourceMappingURL=custom.css.map */
