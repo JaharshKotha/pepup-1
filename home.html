@@ -6,6 +6,8 @@
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" media="screen,projection"/>
+
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -13,15 +15,17 @@
 
     <body>
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
       <script type="text/javascript" src="js/custom.js"></script>
       <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+      <script type="text/javascript" src="js/bin/nouislider.min.js"></script>
 
       <!-- Dropdown Structure -->
       <ul id="dropdown1" class="dropdown-content ">
-        <li><a href="#!">SignUp</a></li>
+        <li><a href="#!">Profile</a></li>
+        <li><a href="#!">My Preferences</a></li>
         <li class="divider"></li>
-        <li><a href="#!">LogIn</a></li>
+        <li><a href="#!">Sign Out</a></li>
       </ul>
 
       <nav class="teal">
@@ -65,56 +69,148 @@
             <div id="test1" class="col s12">
               
 
-             <div class="row">
-                  <div class="col s12 m12 l4">
-                    <div class="card blue-grey darken-1">
-                      <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
-                      </div>
+              
+              <div class="row">
+                <div class="col s12 m6 l4">
+                  <div class="card small">
+                    <div class="card-image">
+                      <img src="img/banner.jpeg">
+                      <span class="card-title">Gold's GYM</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Coimbatore's finest GYM for bodybuilding.</p>
+                    </div>
+                    <div class="card-action right-align">
+                      <a href="./studios/golds_gym.html" class="book_now_btn_green">Book now</a>
                     </div>
                   </div>
+                </div>
 
-                  <div class="col s12 m12 l4">
-                    <div class="card blue-grey darken-1">
-                      <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
-                      </div>
+                <div class="col s12 m6 l4">
+                  <div class="card small">
+                    <div class="card-image">
+                      <img src="img/fone.jpg">
+                      <span class="card-title fitness_one">Fitness One</span>
+                    </div>
+                    <div class="card-content">
+                      <p>At FitnessOne our only business is 'fitness'. Every aspect of fitness.</p>
+                    </div>
+                    <div class="card-action right-align">
+                      <a href="./studios/golds_gym.html" class="book_now_btn_green">Book now</a>
                     </div>
                   </div>
+                </div>
 
-                  <div class="col s12 m12 l4">
-                    <div class="card blue-grey darken-1">
-                      <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
-                      </div>
-                    </div>
-                  </div>     
-            </div>
+        
+              </div>  
+
+
+  
+
 
 
 
             </div>
-            <div id="test2" class="col s12">Near You Content</div>
-            <div id="test3" class="col s12">Explore Content</div>
+            <div id="test2" class="col s12">
+              
+              <div class="col s12 m6 l4">
+                  <div class="card small">
+                    <div class="card-image">
+                      <img src="img/fone.jpg">
+                      <span class="card-title fitness_one">Fitness One</span>
+                    </div>
+                    <div class="card-content">
+                      <p>At FitnessOne our only business is 'fitness'. Every aspect of fitness.</p>
+                    </div>
+                    <div class="card-action right-align">
+                      <a href="./studios/golds_gym.html" class="book_now_btn_green">Book now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+
+
+
+            </div>
+            <div id="test3" class="col s12">
+
+
+
+              <div class="row">
+                  <div class="col s12 m6 l4">
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="img/banner.jpeg">
+                        <span class="card-title">Gold's GYM</span>
+                      </div>
+                      <div class="card-content">
+                        <p>Coimbatore's finest GYM for bodybuilding.</p>
+                      </div>
+                      <div class="card-action right-align">
+                        <a href="./studios/golds_gym.html" class="book_now_btn_green">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l4">
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="img/fone.jpg">
+                        <span class="card-title fitness_one">Fitness One</span>
+                      </div>
+                      <div class="card-content">
+                        <p>At FitnessOne our only business is 'fitness'. Every aspect of fitness.</p>
+                      </div>
+                      <div class="card-action right-align">
+                        <a href="./studios/golds_gym.html" class="book_now_btn_green">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l4">
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="img/banner.jpeg">
+                        <span class="card-title">Gold's GYM</span>
+                      </div>
+                      <div class="card-content">
+                        <p>Coimbatore's finest GYM for bodybuilding.</p>
+                      </div>
+                      <div class="card-action right-align">
+                        <a href="./studios/golds_gym.html" class="book_now_btn_yellow">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l4">
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="img/fone.jpg">
+                        <span class="card-title fitness_one">Fitness One</span>
+                      </div>
+                      <div class="card-content">
+                        <p>At FitnessOne our only business is 'fitness'. Every aspect of fitness.</p>
+                      </div>
+                      <div class="card-action right-align">
+                        <a href="./studios/golds_gym.html" class="book_now_btn_red">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+
+              
+
+
+
+
+
+            </div>
         </div>
+
+
+
+
+            
       </main>
 
 

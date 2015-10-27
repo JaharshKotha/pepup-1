@@ -2,6 +2,12 @@ $(document).ready(function(){
   $(".button-collapse").sideNav();
   $('.collapsible').collapsible();
   $('.scrollspy').scrollSpy();
+  $('.parallax').parallax();
+  $('.modal-trigger').leanModal();
+  $('.slider').slider({
+    full_width: false,
+    interval:10000
+  });
 
   $('.dropdown-button').dropdown({
       inDuration: 300,
@@ -15,6 +21,13 @@ $(document).ready(function(){
   );
 
 
+$('.maps').click(function () {
+    $('.maps iframe').css("pointer-events", "auto");
+});
+
+$( ".maps" ).mouseleave(function() {
+  $('.maps iframe').css("pointer-events", "none"); 
+});
 
 });
 

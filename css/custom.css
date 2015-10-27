@@ -17,12 +17,16 @@ main {
   flex: 1 0 auto; }
 
 .signup_button {
-  margin: 0.5em; }
+  margin: 0.5em;
+  margin-top: 0.8em;
+  z-index: 2; }
   .signup_button span {
     color: white; }
 
 .login_button {
-  margin: 0.5em; }
+  margin: 0.5em;
+  margin-top: 0.8em;
+  z-index: 2; }
   .login_button span {
     color: white; }
 
@@ -40,5 +44,71 @@ main {
   position: absolute !important;
   top: 64px !important;
   display: block; }
+
+.parallax-container {
+  height: 100vh;
+  margin-top: -67px;
+  z-index: -1; }
+
+nav {
+  background-color: rgba(0, 0, 0, 0.65); }
+
+.side-nav {
+  background-color: #455a64 !important; }
+  .side-nav ul li a {
+    color: white !important; }
+  .side-nav ul li:hover {
+    background-color: #00B9D8 !important; }
+
+.banner-overlay {
+  position: relative;
+  margin-top: 10em; }
+  .banner-overlay .maintxt {
+    color: white; }
+
+.fitness_one {
+  color: black !important; }
+
+.blog {
+  margin-right: 1em; }
+
+.blog:hover {
+  text-decoration: underline; }
+
+.book_now_btn_green {
+  padding: 0.5em;
+  border: 1.5px solid green;
+  color: green !important;
+  border-radius: 5px; }
+
+.book_now_btn_green:hover {
+  background-color: green;
+  color: white !important; }
+
+.book_now_btn_yellow {
+  padding: 0.5em;
+  border: 1.5px solid #ff9100;
+  color: #ff9100 !important;
+  border-radius: 5px; }
+
+.book_now_btn_yellow:hover {
+  background-color: #ff9100;
+  color: white !important; }
+
+.book_now_btn_red {
+  padding: 0.5em;
+  border: 1.5px solid red;
+  color: red !important;
+  border-radius: 5px; }
+
+.book_now_btn_red:hover {
+  background-color: red;
+  color: white !important; }
+
+.maps iframe {
+  pointer-events: none; }
+
+.tabs {
+  color: teal !important; }
 
 /*# sourceMappingURL=custom.css.map */
