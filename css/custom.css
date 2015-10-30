@@ -111,4 +111,25 @@ nav {
 .tabs {
   color: teal !important; }
 
+.login_modal {
+  width: 30%; }
+
+@media only screen and (max-width: 992px) {
+  .login_modal {
+    width: 60%;
+    height: 100%; } }
+@media only screen and (max-width: 600px) {
+  .login_modal {
+    width: 90%; } }
+.forgot_pwd {
+  padding: 0.7em; }
+
+.sched_time {
+  color: green !important;
+  border-radius: 5px; }
+
+.sched_date {
+  color: #ff9100 !important;
+  border-radius: 5px; }
+
 /*# sourceMappingURL=custom.css.map */
