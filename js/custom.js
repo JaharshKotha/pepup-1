@@ -9,6 +9,7 @@ $(document).ready(function(){
     interval:10000
   });
 
+
   $('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,
