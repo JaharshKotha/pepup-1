@@ -18,7 +18,7 @@
       <script type="text/javascript" src="js/bin/materialize.min.js"></script>
 
       <!-- Login Modal -->
-      <div id="login" class="modal">
+      <div id="login" class="modal login_modal">
         <div class="modal-content">
           <h4>Login</h4>          
 
@@ -38,8 +38,9 @@
                     <label for="password">Password</label>
                   </div>
                 </div>
-              </form>
-              <a class="waves-effect waves-light btn teal right" >Login</a>
+                <a class="waves-effect waves-light btn teal right">Login</a>
+              </form>              
+              <a href="#!" class="forgot_pwd right">Forgot Password?</a>
             </div>
 
 
@@ -58,12 +59,13 @@
   	          <li><a href="#about">About</a></li>
       			  <li><a href="#howitworks">How it Works</a></li>
       			  <li><a href="#featured">Featured</a></li>
+              <li><a href="#signup">Sign Up!</a></li>
   		      </ul>
           </ul>
           <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 
           <a class="waves-effect waves-light btn modal-trigger teal login_button right" href="#login">Login</a>
-          <a class="waves-effect waves-light btn teal signup_button right"><span>Sign Up<span></a>
+          <a href="#signup"class="waves-effect waves-light btn teal signup_button right"><span>Sign Up<span></a>
           <a href="#" class="blog right">BLOG</a>
 
         </nav>
@@ -112,7 +114,102 @@
   		        	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
   		        </p>
   		      </div>
+
+            <div id="signup" class="section scrollspy">
+              <h2>Sign Up!</h2>
+              <div class="row">
+                <div class="col s12 m12 l8">
+                  <div class="card-panel ">
+
+                  <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                          <input placeholder="First name Last Name" id="name" type="text" class="validate">
+                          <label for="first_name">Name</label>
+                        </div>
+     
+                      </div>
+
+                      <div class="row">
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                          <input id="email" type="email" class="validate">
+                          <label for="email">Email</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">lock</i>
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Password</label>
+                        </div>
+                      </div>       
+                      <div class="row">
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">lock</i>
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Confirm Password</label>
+                        </div>
+                      </div>        
+                      <div class="row">
+                      <div class="input-field col s12">
+                      <i class="material-icons prefix">perm_contact_calendar</i>
+                      <input placeholder="dd/mm/yyyy"type="date" class="datepicker">
+                      </div>
+                      </div>
+                               
+
+                      <div class="row">
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">phone</i>
+                          <input placeholder="10 Digit Phone Number"id="phone" type="text" length="10">
+                          <label for="phone">Phone Number</label>
+                        </div>
+                      </div>
+
+                      <h5>Gender</h5>
+                      <div class="row">
+                      <p class="col s6 m6 l6">
+                        <input name="group1" type="radio" id="male" />
+                        <label for="male">Male</label>
+                      </p>
+                      <p class="col s6 m6 l6">
+                        <input name="group1" type="radio" id="female" />
+                        <label for="female">Female</label>
+                      </p>         
+                      </div>    
+
+                      <h5>City</h5>  
+                      <select class="browser-default">
+                        <option value="" disabled selected>Choose your city</option>
+                        <option value="1">Coimbatore</option>
+                        <option value="2">Chennai</option>
+                        <option value="3">Bangalore</option>
+                      </select>        
+                      
+                      <div class="row center-align">
+                      <a href="" class="waves-effect waves-light btn teal signup_button center-align" style="margin-top:3em;"><span>Sign Up<span></a>      
+                      </span>
+
+                    
+
+                      </div>                  
+                    </form>
+                  </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+             
+              
+            </div>
+
           </div>
+
 		    </div>
 
       </main>
