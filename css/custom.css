@@ -132,4 +132,8 @@ nav {
   color: #ff9100 !important;
   border-radius: 5px; }
 
+.inline {
+  display: inline;
+  padding: 0.5em; }
+
 /*# sourceMappingURL=custom.css.map */
