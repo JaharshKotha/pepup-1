@@ -7,6 +7,9 @@ nav, header, main, footer {
 .side-nav_logo {
   margin-top: 2em;
   margin-bottom: 2em; }
+  .side-nav_logo img {
+    height: 80px;
+    width: 80px; }
 
 body {
   display: flex;
@@ -61,10 +64,22 @@ nav {
     background-color: #00B9D8 !important; }
 
 .banner-overlay {
-  position: relative;
+  margin-left: 2em;
+  margin-right: 2em;
   margin-top: 10em; }
   .banner-overlay .maintxt {
-    color: white; }
+    color: teal;
+    font-weight: 100;
+    font-size: 50px;
+    text-transform: uppercase; }
+  .banner-overlay .tagline {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    width: 40%; }
+  @media only screen and (max-width: 992px) {
+    .banner-overlay .tagline {
+      width: 100%; } }
 
 .fitness_one {
   color: black !important; }
@@ -135,5 +150,32 @@ nav {
 .inline {
   display: inline;
   padding: 0.5em; }
+
+.main-content {
+  padding-left: 3em;
+  padding-right: 3em; }
+
+@media only screen and (max-width: 992px) {
+  .main-content {
+    padding-left: 1em;
+    padding-right: 1em; } }
+.banner-img {
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  /* For IE8 and earlier */ }
+
+.brand-logo {
+  margin-left: 2em;
+  margin-top: 0.5em; }
+  .brand-logo img {
+    height: 80px;
+    width: 80px; }
+
+@media only screen and (max-width: 992px) {
+  .brand-logo {
+    margin-left: 0em; }
+    .brand-logo img {
+      height: 60px;
+      width: 60px; } }
 
 /*# sourceMappingURL=custom.css.map */
