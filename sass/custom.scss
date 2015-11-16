@@ -100,6 +100,7 @@ nav{
 }
 
 .banner-overlay{
+	position:relative;
 	margin-left: 2em;
 	margin-right: 2em;
 	margin-top: 10em;
@@ -232,16 +233,18 @@ width:30%;
 
   @media only screen and (max-width : 992px) {
      .main-content{
-	padding-left: 1em;
-	padding-right: 1em;
+	// padding-left: 1em;
+	// padding-right: 1em;
   }
 }
 
-
+#landing{   //asingamana code fix
+	height:101vh;
+}
 .banner-img {
     opacity: 0.95;
     filter: alpha(opacity=95); /* For IE8 and earlier */
-}
+   }
 
 .brand-logo {
 	margin-left: 2em;
