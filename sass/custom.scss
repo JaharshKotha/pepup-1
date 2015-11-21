@@ -1,12 +1,12 @@
-   nav,header,main, footer{
-    padding-left: 240px; 
-  }
+  //  nav,header,main, footer{
+  //   padding-left: 240px; 
+  // }
 
-  @media only screen and (max-width : 992px) {
-     nav,header,main, footer {
-      padding-left: 0;
-    }
-  }
+  // @media only screen and (max-width : 992px) {
+  //    nav,header,main, footer {
+  //     padding-left: 0;
+  //   }
+  // }
 
 .side-nav_logo{
   	margin-top: 2em;
@@ -74,14 +74,15 @@ main {
 }
 
 nav{
-	background-color: rgba(0, 0, 0, 0.65);
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index:3;
 }
 
 
 
 .side-nav{
 	background-color:#455a64 !important;
-
+	z-index:4;
 
 	ul{
 		li{
@@ -233,8 +234,8 @@ width:30%;
 
   @media only screen and (max-width : 992px) {
      .main-content{
-	// padding-left: 1em;
-	// padding-right: 1em;
+	 padding-left: 1em;
+	 padding-right: 1em;
   }
 }
 
@@ -265,4 +266,8 @@ width:30%;
 		}
 	}
   }
-
+       
+.page-footer{
+  background-color: black!important;
+  opacity: 0.8!important;
+}

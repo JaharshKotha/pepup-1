@@ -1,12 +1,15 @@
+
  <!DOCTYPE html>
   <html>
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="./css/materialize.css"  media="screen,projection"/>
+            <link type="text/css" rel="stylesheet" href="./css/custom.css"  media="screen,projection"/>
+
       <!-- <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection"/> -->
-      <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="./css/nouislider.min.css" media="screen,projection"/>
 
 
       <!--Let browser know website is optimized for mobile-->
@@ -15,10 +18,10 @@
 
     <body>
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-      <script type="text/javascript" src="js/custom.js"></script>
-      <script type="text/javascript" src="js/bin/materialize.min.js"></script>
-      <script type="text/javascript" src="js/bin/nouislider.min.js"></script>
+      <script type="text/javascript" src="./js/jquery-2.1.4.js"></script>
+      <script type="text/javascript" src="./js/custom.js"></script>
+      <script type="text/javascript" src="./js/bin/materialize.min.js"></script>
+      <script type="text/javascript" src="./js/bin/nouislider.min.js"></script>
 
       <!-- Dropdown Structure -->
       <ul id="dropdown1" class="dropdown-content ">
@@ -27,6 +30,29 @@
         <li class="divider"></li>
         <li><a href="#!">Sign Out</a></li>
       </ul>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="./index.html" class="brand-logo"><img src="./img/logo-2.png"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <div class="container">
+      <ul class="left hide-on-med-and-down" >        
+        <li> <a href="./index.html" >Home</a> </li>     
+        <li class="active"> <a href="./blog.html" class="blog">PepUp Blog</a> </li>
+        <!-- <li> <a href="#usersignup"class="waves-effect waves-light btn modal-trigger teal signup_button right"><span>Sign Up<span></a></li> -->
+        <!-- <li> <a class="waves-effect waves-light btn modal-trigger teal login_button right" href="#login">Login</a></li> -->
+      </ul>
+      </div>
+      
+      <ul class="side-nav" id="mobile-demo" >
+<!--         <li><a href="#login"style="color:white"><b>Login</b></a></li> -->
+<!--         <li><a href="#usersignup"style="color:white"class="modal-trigger"><b>Signup</b></a></li> -->
+        <li><a href="./index.html"style="color:white"><b>Home</b></a></li>
+        <li><a href="./blog.html"style="color:white"><b>PepUp Blog</b></a></li>
+        
+      </ul>
+    </div>
+  </nav>
 
 
 
@@ -116,7 +142,7 @@ So that's it, a smile on your face and a spring in your step (literally)! Good l
               <div class="col l2 s4">
               <h5 class="white-text">Connect</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/pepuptoday">Facebook</a></li>
                 <li><a class="grey-text text-lighten-3" href="#!">E-mail</a></li>
 
               </ul>
@@ -124,8 +150,8 @@ So that's it, a smile on your face and a spring in your step (literally)! Good l
             <div class="col l2  s4">
               <h5 class="white-text">Popular</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">ShapeUp GYM</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">ABC Yoga Center</a></li>
+                <li><a class="grey-text text-lighten-3" href="./studios/shapeup.html">ShapeUp GYM</a></li>
+                <li><a class="grey-text text-lighten-3" href="./studio/fabUfit.html">Fab 'U' Fit GYM</a></li>
 
               </ul>
             </div>
